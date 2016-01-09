@@ -10,9 +10,13 @@ import javafx.stage.Stage;
 
 public class FensterMitLabel extends Application{
 
+	StackPane root;
+	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		StackPane root = new StackPane();
+		//StackPane 
+		root = new StackPane();
+		
 		Label label = new Label("Hier die Maus bewegen!");
 		root.getChildren().add(label);
 		label.addEventHandler(MouseEvent.MOUSE_MOVED, new MausBewegungEventHandler());
@@ -29,7 +33,15 @@ public class FensterMitLabel extends Application{
 	public class MausBewegungEventHandler implements EventHandler<MouseEvent>{
 		@Override
 		public void handle(MouseEvent event) {
-			System.out.println(event.getSceneX()+", "+event.getSceneY());
+			System.err.println(event.getSceneX()+", "+event.getSceneY());
+		}
+	}
+	
+	//neu
+	public class MausKlickEventHandler implements EventHandler<MouseEvent>{
+		@Override
+		public void handle (MouseEvent event){
+			System.err.println("Maustaste geklickt");
 		}
 	}
 }
