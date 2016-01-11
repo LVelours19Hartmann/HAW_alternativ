@@ -1,4 +1,4 @@
-package aufgabenblatt4a;
+package aufgabenblatt4_soloversion;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

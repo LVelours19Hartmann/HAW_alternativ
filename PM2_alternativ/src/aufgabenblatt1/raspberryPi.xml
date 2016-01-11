@@ -1,0 +1,23 @@
+<!--  BTI1-PTP/03, WS 15
+      Gruppe: Helena Lajevardi (helena.lajevardi@haw-hamburg.de)
+      		  Lennart Hartmann (lennart.hartmann@haw-hamburg.de)
+	  Aufgabe: Aufgabenblatt 1, Aufgabe 1.3
+-->
+<?xml version="1.0" ?>
+<!DOCTYPE raspberryPi SYSTEM "raspberryPi.dtd">
+<raspberryPi name="Raspberry Pi - Model b" ip="192.168.2.1">
+	<sensor>
+		<ort>Wohnzimmer</ort>
+		<typ>Temperatur</typ>
+		<wert>22.4</wert>
+	</sensor>
+	<sensor>
+		<ort>Küche</ort>
+		<wert>-1.2323</wert>
+	</sensor>
+	<sensor>
+		<ort>Badezimmer</ort>
+		<typ>Luftfeuchtigkeit</typ>
+		<wert>63.8</wert>
+	</sensor>
+</raspberryPi>

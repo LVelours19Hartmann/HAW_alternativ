@@ -1,0 +1,14 @@
+<!--  BTI1-PTP/03, WS 15
+      Gruppe: Helena Lajevardi (helena.lajevardi@haw-hamburg.de)
+      		  Lennart Hartmann (lennart.hartmann@haw-hamburg.de)
+	  Aufgabe: Aufgabenblatt 1, Aufgabe 1.3
+-->
+
+<!ELEMENT raspberryPi (sensor)*>
+<!ATTLIST raspberryPi name CDATA #REQUIRED ip CDATA #REQUIRED>
+<!ELEMENT sensor (ort*, typ*, wert*)>
+<!ELEMENT ort (#PCDATA)>
+<!ELEMENT typ (#PCDATA)>
+<!ELEMENT wert (#PCDATA)>
+
+

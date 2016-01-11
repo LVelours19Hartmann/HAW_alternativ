@@ -1,4 +1,4 @@
-package aufgabenblatt4a;
+package aufgabenblatt4_soloversion;
 
 import java.util.ArrayList;
 import java.util.List;

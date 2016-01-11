@@ -1,10 +1,10 @@
-package aufgabenblatt4a;
+package aufgabenblatt4_soloversion;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Klasse Verarbeitung von Texteingaben
+ * Klasse zur Verarbeitung von Texteingaben
  * @author  Helena Lajevardi, Lennart Hartmann
  */
 public class PolygonSkripting {

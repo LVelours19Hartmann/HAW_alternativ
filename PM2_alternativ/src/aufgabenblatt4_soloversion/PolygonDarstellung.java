@@ -1,4 +1,4 @@
-package aufgabenblatt4a;
+package aufgabenblatt4_soloversion;
 
 import java.util.Observable;
 import java.util.Observer;
